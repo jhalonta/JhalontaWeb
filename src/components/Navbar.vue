@@ -4,7 +4,7 @@
       <!-- Logo -->
       <a href="#inicio" class="flex items-center gap-2 font-extrabold tracking-tight"
          @click.prevent="go('#inicio')">
-        <img src="/logo.png" alt="Logo" class="h-8 w-8 rounded-lg object-cover" />
+        <img src="/logo.png" alt="Logo" class="h-12 w-12 rounded-lg object-cover" />
         <span class="text-white/90">{{ site.name }}</span>
       </a>
 
