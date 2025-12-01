@@ -76,7 +76,7 @@
 import { computed } from 'vue'
 import { site } from '@configs/siteConfig'
 import SocialIcon from '@components/SocialIcon.vue'
-import avatar from '@/assets/profile.png'
+const avatar = '/profile.png'
 
 /* Gmail compose directo con tu correo */
 const gmailUrl = computed(() => {
