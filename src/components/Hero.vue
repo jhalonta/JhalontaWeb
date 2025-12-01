@@ -9,7 +9,7 @@
     <div class="container-section grid gap-8 py-14 md:grid-cols-2 md:items-center">
       <!-- Lado izquierdo -->
       <div>
-        <!-- (Eliminado el badge 'Portafolio • 2025') -->
+
 
         <h1 class="text-4xl/tight md:text-6xl/tight font-extrabold">
           Soy <span class="text-white/90">{{ site.fullName }}</span>,

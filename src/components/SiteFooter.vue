@@ -19,7 +19,7 @@
           <SocialIcon :name="key" class="h-5 w-5" />
         </a>
 
-        <!-- Gmail Compose con tu correo -->
+
         <a
             :href="gmailUrl"
             target="_blank"

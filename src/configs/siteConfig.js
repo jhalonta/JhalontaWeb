@@ -5,7 +5,7 @@ export const site = {
     bio: 'Bienvenido a mi mundo de proyectos, artículos y consejos para potenciar tus desarrollos.',
     location: 'Perú',
     email: 'jhonalinso.15@gmail.com',
-    whatsapp: '51922596820', // ✅ tu número para WhatsApp
+    whatsapp: '51922596820',
     social: {
         github: 'https://github.com/jhalonta',
         facebook: 'https://www.facebook.com/jhonalonso.tapiacruzado',
