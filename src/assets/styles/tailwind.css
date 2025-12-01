@@ -8,7 +8,7 @@
 }
 
 @layer components {
-  .container-section { @apply max-w-6xl mx-auto px-4; }
+  .container-section { @apply max-w-5xl mx-auto px-4; }
   .pill { @apply inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-1 text-sm text-white/70; }
   .btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold shadow-soft; }
   .btn-primary { @apply btn bg-emerald-400 text-slate-900 hover:bg-emerald-300; }
