@@ -8,7 +8,7 @@
       </a>
     </div>
 
-    <div class="grid gap-6 md:grid-cols-2">
+    <div class="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
       <ProjectCard v-for="p in projects" :key="p.id" :project="p" />
     </div>
   </section>
