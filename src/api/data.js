@@ -5,7 +5,7 @@ export const projects = [
         description:
             'Plataforma tipo Uber para mototaxis: registro de usuarios, solicitud de viajes y seguimiento en tiempo real.',
         stack: 'VUE • TAILWIND • FIREBASE • MAPBOX',
-        repo: '#',  // ← pon aquí tu repo real cuando lo tengas
+        repo: '#',
         demo: '#'
     },
     {
