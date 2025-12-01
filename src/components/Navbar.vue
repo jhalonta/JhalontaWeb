@@ -40,7 +40,7 @@
 </template>
 
 <script setup>
-import { ref, nextTick } from 'vue'
+import { ref, nextTick, watch, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { site } from '@configs/siteConfig'
 
@@ -53,6 +53,26 @@ const links = [
   { label: 'Proyectos',  hash: '#proyectos' },
 
 ]
+
+/* Close menu on scroll */
+const closeOnScroll = () => {
+  open.value = false
+}
+
+watch(open, (val) => {
+  if (val) {
+    // Small delay to prevent immediate closing if there's residual interaction
+    setTimeout(() => {
+      window.addEventListener('scroll', closeOnScroll, { passive: true })
+    }, 100)
+  } else {
+    window.removeEventListener('scroll', closeOnScroll)
+  }
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', closeOnScroll)
+})
 
 const NAV_OFFSET = 72
 function scrollToHash(hash) {
