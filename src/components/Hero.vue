@@ -37,7 +37,7 @@
               class="rounded-xl border border-white/10 bg-white/5 p-2 hover:bg-white/10"
               :aria-label="key"
           >
-            <SocialIcon :name="key" class="h-5 w-5" />
+            <SocialIcon :name="key" class="h-6 w-6" />
           </a>
         </div>
       </div>

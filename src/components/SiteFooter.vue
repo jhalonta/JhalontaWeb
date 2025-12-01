@@ -16,7 +16,7 @@
             class="rounded-xl border border-white/10 bg-white/5 p-2 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-emerald-400/40"
             :aria-label="key"
         >
-          <SocialIcon :name="key" class="h-4 w-4" />
+          <SocialIcon :name="key" class="h-5 w-5" />
         </a>
 
         <!-- Gmail Compose con tu correo -->
@@ -27,7 +27,7 @@
             class="rounded-xl border border-white/10 bg-white/5 p-2 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-emerald-400/40"
             aria-label="gmail"
         >
-          <SocialIcon name="mail" class="h-4 w-4" />
+          <SocialIcon name="mail" class="h-5 w-5" />
         </a>
       </nav>
     </div>
