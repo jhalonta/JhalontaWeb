@@ -4,7 +4,7 @@
       <!-- Logo -->
       <a href="#inicio" class="flex items-center gap-2 font-extrabold tracking-tight"
          @click.prevent="go('#inicio')">
-        <span class="h-7 w-7 rounded-lg bg-gradient-to-br from-emerald-400 to-sky-400 shadow-soft"></span>
+        <img src="/logo.png" alt="Logo" class="h-8 w-8 rounded-lg object-cover" />
         <span class="text-white/90">{{ site.name }}</span>
       </a>
 
