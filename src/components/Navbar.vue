@@ -22,7 +22,7 @@
         </a>
         <!-- Contacto ahora es ruta /contacto -->
         <a href="/contacto" @click.prevent="toContacto" class="btn-ghost text-sm">Contacto</a>
-        <a href="#resumen" class="hover:text-white" @click.prevent="go('#resumen')">Resumen</a>
+        <a href="/cv.pdf" download="CV_Jhalonta.pdf" class="hover:text-white">Resumen</a>
       </nav>
     </div>
 
@@ -33,7 +33,7 @@
           {{ l.label }}
         </a>
         <a href="/contacto" class="py-2" @click.prevent="toContacto">Contacto</a>
-        <a href="#resumen" class="py-2" @click.prevent="goAndClose('#resumen')">Resumen</a>
+        <a href="/cv.pdf" download="CV_Jhalonta.pdf" class="py-2">Resumen</a>
       </div>
     </div>
   </header>
