@@ -22,6 +22,7 @@
         </a>
         <!-- Contacto ahora es ruta /contacto -->
         <a href="/contacto" @click.prevent="toContacto" class="btn-ghost text-sm">Contacto</a>
+        <a href="#resumen" class="hover:text-white" @click.prevent="go('#resumen')">Resumen</a>
       </nav>
     </div>
 
@@ -32,6 +33,7 @@
           {{ l.label }}
         </a>
         <a href="/contacto" class="py-2" @click.prevent="toContacto">Contacto</a>
+        <a href="#resumen" class="py-2" @click.prevent="goAndClose('#resumen')">Resumen</a>
       </div>
     </div>
   </header>
@@ -49,7 +51,7 @@ const route  = useRoute()
 const links = [
   { label: 'Inicio',     hash: '#inicio' },
   { label: 'Proyectos',  hash: '#proyectos' },
-  { label: 'Resumen',    hash: '#resumen' },
+
 ]
 
 const NAV_OFFSET = 72
