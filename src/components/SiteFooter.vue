@@ -2,7 +2,7 @@
   <footer class="border-t border-white/10 py-10 text-white/70">
     <div class="container-section flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center gap-2">
-        <span class="h-6 w-6 rounded-md bg-gradient-to-br from-emerald-400 to-sky-400"></span>
+        <img src="/logo.png" alt="Logo" class="h-8 w-8 rounded-lg object-cover" />
         <span>© {{ year }} {{ site.name }}. Todos los derechos reservados.</span>
       </div>
 
