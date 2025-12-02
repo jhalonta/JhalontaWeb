@@ -10,7 +10,7 @@
                bg-white/[0.03] px-3 py-3 transition hover:bg-white/[0.06]"
       >
         <!-- Icono real (Devicon) con color oficial -->
-        <i :class="[s.icon, 'text-[26px]']" aria-hidden="true"></i>
+        <i :class="[s.icon, 'text-3xl']" aria-hidden="true"></i>
         <span class="font-medium text-white/90">{{ s.name }}</span>
       </article>
     </div>

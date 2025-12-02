@@ -40,10 +40,10 @@ export const projects = [
 export const skills = [
     { name: 'HTML 5', icon: 'devicon-html5-plain colored' },
     { name: 'CSS 3', icon: 'devicon-css3-plain colored' },
-    { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-plain colored' },
+    { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-original colored' },
     { name: 'Bootstrap', icon: 'devicon-bootstrap-plain colored' },
     { name: 'JavaScript', icon: 'devicon-javascript-plain colored' },
     { name: 'Vue.js', icon: 'devicon-vuejs-plain colored' },
-    { name: 'Node.js', icon: 'devicon-nodejs-plain colored' },
+    { name: 'Node.js', icon: 'devicon-nodejs-plain-wordmark colored' },
     { name: 'Figma', icon: 'devicon-figma-plain colored' },
 ]
