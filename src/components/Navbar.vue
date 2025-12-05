@@ -20,6 +20,7 @@
         <a v-for="l in links" :key="l.hash" :href="l.hash" class="hover:text-white" @click.prevent="go(l.hash)">
           {{ l.label }}
         </a>
+        <a href="/proyectos" @click.prevent="toProyectos" class="hover:text-white">Proyectos</a>
         <!-- Contacto ahora es ruta /contacto -->
         <a href="/contacto" @click.prevent="toContacto" class="btn-ghost text-sm">Contacto</a>
         <a href="/cv.pdf" download="CV_Jhalonta.pdf" class="hover:text-white">Resumen</a>
@@ -32,6 +33,7 @@
         <a v-for="l in links" :key="l.hash+'m'" :href="l.hash" class="py-2" @click.prevent="goAndClose(l.hash)">
           {{ l.label }}
         </a>
+        <a href="/proyectos" class="py-2" @click.prevent="toProyectos">Proyectos</a>
         <a href="/contacto" class="py-2" @click.prevent="toContacto">Contacto</a>
         <a href="/cv.pdf" download="CV_Jhalonta.pdf" class="py-2">Resumen</a>
       </div>
@@ -50,8 +52,6 @@ const route  = useRoute()
 
 const links = [
   { label: 'Inicio',     hash: '#inicio' },
-  { label: 'Proyectos',  hash: '#proyectos' },
-
 ]
 
 /* Close menu on scroll */
@@ -92,4 +92,5 @@ async function go(hash) {
 }
 function goAndClose(hash){ open.value = false; go(hash) }
 function toContacto(){ open.value = false; router.push('/contacto') }
+function toProyectos(){ open.value = false; router.push('/proyectos') }
 </script>

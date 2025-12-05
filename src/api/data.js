@@ -2,36 +2,50 @@ export const projects = [
     {
         id: 1,
         title: 'MotoYa!',
-        description:
-            'Plataforma tipo Uber para mototaxis: registro de usuarios, solicitud de viajes y seguimiento en tiempo real.',
+        description: 'Plataforma tipo Uber para mototaxis: registro de usuarios, solicitud de viajes y seguimiento en tiempo real.',
         stack: 'VUE • TAILWIND • FIREBASE • MAPBOX',
+        category: 'App Movil',
+        image: '', // TODO: Add image path
         repo: '#',
         demo: '#'
     },
     {
         id: 2,
         title: 'NotasWeb',
-        description:
-            'Web para crear, editar y organizar notas. Búsqueda y persistencia de datos (localStorage/Firebase).',
+        description: 'Web para crear, editar y organizar notas. Búsqueda y persistencia de datos (localStorage/Firebase).',
         stack: 'VUE • TAILWIND • PINIA • LOCALSTORAGE',
+        category: 'Web',
+        image: '', // TODO: Add image path
         repo: '#',
         demo: '#'
     },
     {
         id: 3,
         title: 'Uclass',
-        description:
-            'App para evaluar estudiantes de ciencias de la salud (psicología y enfermería) con rúbricas y reportes.',
+        description: 'App para evaluar estudiantes de ciencias de la salud (psicología y enfermería) con rúbricas y reportes.',
         stack: 'VUE • TAILWIND • FIREBASE',
+        category: 'App Web',
+        image: '', // TODO: Add image path
         repo: '#',
         demo: '#'
     },
     {
         id: 4,
         title: 'Jhons Routes',
-        description:
-            'Sistema de recomendación de rutas turísticas con mapas, filtros y ranking de lugares.',
+        description: 'Sistema de recomendación de rutas turísticas con mapas, filtros y ranking de lugares.',
         stack: 'VUE • TAILWIND • MAPBOX',
+        category: 'Web',
+        image: '', // TODO: Add image path
+        repo: '#',
+        demo: '#'
+    },
+    {
+        id: 5,
+        title: 'Valenzu',
+        description: 'Landing page para empresa de agregados de construcción. Diseño moderno y responsivo.',
+        stack: 'HTML • CSS • JS', // Rendering assumption based on "Landing"
+        category: 'Landing',
+        image: '', // TODO: Add image path
         repo: '#',
         demo: '#'
     }
